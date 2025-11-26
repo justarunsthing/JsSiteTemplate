@@ -1,3 +1,3 @@
-function helloWorld() {
-    alert("Hello World!");
-}
+// Set date
+const currentYear = new Date().getFullYear();
+document.getElementById("year").textContent = `©${currentYear}`;
